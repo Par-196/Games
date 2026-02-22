@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C562CD60-5352-43A4-8389-E8A4EEC53E13}</ProjectGuid>
+    <ProjectGuid>{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Games</RootNamespace>
-    <AssemblyName>Games</AssemblyName>
+    <RootNamespace>Snake</RootNamespace>
+    <AssemblyName>Snake</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,20 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Chess\Chess.csproj">
-      <Project>{60eba376-f606-4e52-8df6-a315a083eba3}</Project>
-      <Name>Chess</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Sea War\Sea War.csproj">
-      <Project>{1d6333da-ba99-4a70-8c31-1d57bc040b23}</Project>
-      <Name>Sea War</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Snake\Snake.csproj">
-      <Project>{2fd093c4-dbbf-4ad0-89af-18a296d6943a}</Project>
-      <Name>Snake</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
