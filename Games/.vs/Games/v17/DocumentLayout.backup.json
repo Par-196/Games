@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{C562CD60-5352-43A4-8389-E8A4EEC53E13}|Games\\Games.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\games\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C562CD60-5352-43A4-8389-E8A4EEC53E13}|Games\\Games.csproj|solutionrelative:games\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\snake\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|solutionrelative:snake\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\sea war\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|solutionrelative:sea war\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60EBA376-F606-4E52-8DF6-A315A083EBA3}|Chess\\Chess.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\chess\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60EBA376-F606-4E52-8DF6-A315A083EBA3}|Chess\\Chess.csproj|solutionrelative:chess\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Chess\\Program.cs",
+              "RelativeDocumentMoniker": "Chess\\Program.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Chess\\Program.cs",
+              "RelativeToolTip": "Chess\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T03:53:57.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Program.cs",
+              "RelativeDocumentMoniker": "Sea War\\Program.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Program.cs",
+              "RelativeToolTip": "Sea War\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T03:53:45.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Program.cs",
+              "RelativeDocumentMoniker": "Snake\\Program.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Program.cs",
+              "RelativeToolTip": "Snake\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T03:53:29.105Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +75,7 @@
               "RelativeDocumentMoniker": "Games\\Program.cs",
               "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Games\\Program.cs",
               "RelativeToolTip": "Games\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T02:58:57.255Z",
               "EditorCaption": ""
