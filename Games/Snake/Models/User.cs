@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Snake.Models
 {
-    internal class User
+    public abstract class User
     {
+        protected string FirstName { get; set; }
+        protected string LastName { get; set; }
+        protected string Email { get; set; }
+        protected string Password { get; set; }
     }
 }

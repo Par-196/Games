@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\snake\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|solutionrelative:snake\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\snake\\models\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|solutionrelative:snake\\models\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\snake\\models\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|solutionrelative:snake\\models\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\snake\\models\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|solutionrelative:snake\\models\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\snake\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\snake\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|solutionrelative:snake\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\snake\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\snake\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|solutionrelative:snake\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\snake\\models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\snake\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|solutionrelative:snake\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\snake\\models\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|solutionrelative:snake\\models\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\snake\\models\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|solutionrelative:snake\\models\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\snake\\models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|solutionrelative:snake\\models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\snake\\models\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FD093C4-DBBF-4AD0-89AF-18A296D6943A}|Snake\\Snake.csproj|solutionrelative:snake\\models\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 191,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Program.cs",
               "RelativeDocumentMoniker": "Snake\\Program.cs",
               "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Program.cs",
               "RelativeToolTip": "Snake\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T03:53:29.105Z",
               "IsPinned": true,
@@ -56,46 +56,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Models\\Player.cs",
               "RelativeDocumentMoniker": "Snake\\Models\\Player.cs",
               "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Models\\Player.cs",
               "RelativeToolTip": "Snake\\Models\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T04:14:42.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Point.cs",
-              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Models\\Point.cs",
-              "RelativeDocumentMoniker": "Snake\\Models\\Point.cs",
-              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Models\\Point.cs",
-              "RelativeToolTip": "Snake\\Models\\Point.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T04:15:11.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Models\\User.cs",
               "RelativeDocumentMoniker": "Snake\\Models\\User.cs",
               "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Models\\User.cs",
               "RelativeToolTip": "Snake\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T04:14:33.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Point.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Models\\Point.cs",
+              "RelativeDocumentMoniker": "Snake\\Models\\Point.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Models\\Point.cs",
+              "RelativeToolTip": "Snake\\Models\\Point.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T04:15:11.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Snake.cs",
               "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Models\\Snake.cs",
               "RelativeDocumentMoniker": "Snake\\Models\\Snake.cs",
@@ -103,12 +103,11 @@
               "RelativeToolTip": "Snake\\Models\\Snake.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T04:14:20.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T04:14:20.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Field.cs",
               "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Models\\Field.cs",
               "RelativeDocumentMoniker": "Snake\\Models\\Field.cs",
@@ -121,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Cell.cs",
               "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Models\\Cell.cs",
               "RelativeDocumentMoniker": "Snake\\Models\\Cell.cs",
               "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Snake\\Models\\Cell.cs",
               "RelativeToolTip": "Snake\\Models\\Cell.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T04:13:54.294Z",
               "EditorCaption": ""

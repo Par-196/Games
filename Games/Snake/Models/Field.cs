@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Snake.Models
 {
-    internal class Field
+    public class Field
     {
+        private Cell[,] _cells { get; set; }
+
+        private Snake Snake { get; set; }
+
+        public Field()
+        { 
+            
+        }
     }
 }

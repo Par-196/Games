@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Snake.Models
 {
-    internal class Point
+    public class Point
     {
+        private int _x { get; set; }
+        private int _y { get; set; }
+                
+        public Point(int x, int y)
+        {
+            x = _x;
+            y = _y;
+        }
     }
 }

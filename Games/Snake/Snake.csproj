@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Cell.cs" />
+    <Compile Include="Models\Enums\TypeCell.cs" />
     <Compile Include="Models\Field.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Point.cs" />
@@ -55,8 +56,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\Enums\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
