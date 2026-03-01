@@ -10,11 +10,11 @@ namespace Snake.Models
     {
         private int _x { get; set; }
         private int _y { get; set; }
-                
+
         public Point(int x, int y)
         {
-            x = _x;
-            y = _y;
+            _x = x;
+            _y = y;
         }
     }
 }

@@ -12,6 +12,6 @@ namespace Snake.Model.Enums
         SnakeBody,
         SnakeHead,
         Border,
-        Food,
+        Food,                      
     }
 }

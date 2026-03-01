@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Cell.cs" />
+    <Compile Include="Models\Enums\SnakeDirection.cs" />
     <Compile Include="Models\Enums\TypeCell.cs" />
     <Compile Include="Models\Field.cs" />
     <Compile Include="Models\Player.cs" />
