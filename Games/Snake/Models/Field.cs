@@ -13,7 +13,6 @@ namespace Snake.Models
         public Field(int width, int length)
         {
             Cell[,] _cells = new Cell[width, length];
-            ShowField(_cells);
             CreateField(_cells);
             ShowField(_cells);
         }
@@ -39,7 +38,7 @@ namespace Snake.Models
 
         public void ShowField(Cell[,] _cells)
         {
-            if (_cells[0,0] != null)
+            if (ArrayIsNotNull(_cells))
             {
                 Console.SetWindowSize(_cells.GetLength(1), _cells.GetLength(0));
                 for (int x = 0; x < _cells.GetLength(0); x++)
@@ -55,8 +54,28 @@ namespace Snake.Models
             }
             else 
             {
-                Console.WriteLine("Error");
+                Console.WriteLine("I can't display the field because the array is empty");
             }
+            
+        }
+
+        private bool ArrayIsNotNull(Cell[,] array)
+        {
+            if (array == null)
+            {
+                return false;
+            }
+            for (int i = 0; i < array.GetLength(0); i++)
+            {
+                for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    if (array[i, j] == null)
+                    {
+                        return false;
+                    }
+                }
+            }
+            return true;
         }
     }
 }
