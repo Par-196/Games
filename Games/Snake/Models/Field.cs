@@ -13,7 +13,6 @@ namespace Snake.Models
         public Field(Cell[,] _cells)
         {
             CreateField(_cells);
-            ShowField(_cells);
         }
         
         private void CreateField(Cell[,] _cells)
@@ -32,7 +31,6 @@ namespace Snake.Models
                     }
                 }
             }
-            
         }
 
         public void ShowField(Cell[,] _cells)
@@ -77,6 +75,28 @@ namespace Snake.Models
             return true;
         }
 
-        
+        public (int, int) SpawnFood(Cell[,] cells, bool didSnakeEatFood, int foodXPoint, int foodYPoint)
+        {
+            Random random = new Random();
+            if (didSnakeEatFood == true)
+            {
+                do
+                {
+                    foodXPoint = random.Next(1, cells.GetLength(0) - 2);
+                    foodYPoint = random.Next(1, cells.GetLength(0) - 2);
+                }
+                while (cells[foodXPoint, foodYPoint].Type != TypeCell.Empty);
+
+
+                cells[foodXPoint, foodYPoint].ChangeCellType(TypeCell.Food);
+                Console.SetCursorPosition(foodYPoint, foodXPoint);
+                Console.Write(cells[foodXPoint, foodYPoint].ToString());
+                Console.ResetColor();
+                didSnakeEatFood = false;
+                return (foodXPoint, foodYPoint);
+            }
+            return (foodXPoint, foodYPoint);
+        }
+
     }
 }

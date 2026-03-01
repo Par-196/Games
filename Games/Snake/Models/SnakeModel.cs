@@ -53,7 +53,33 @@ namespace Snake.Models
             }
         }
 
-        public void MoveSnake(SnakeDirection snakeDirection)
+        public void MoveSnake()
+        {
+            if (Console.KeyAvailable)
+            {
+                ConsoleKey userInput = Console.ReadKey(true).Key;
+
+                if ((userInput == ConsoleKey.W || userInput == ConsoleKey.UpArrow) && Direction != SnakeDirection.Down)
+                {
+                    Direction = SnakeDirection.Up;
+                }
+                else if ((userInput == ConsoleKey.D || userInput == ConsoleKey.RightArrow) && Direction != SnakeDirection.Left)
+                {
+                    Direction = SnakeDirection.Right;
+                }
+                else if ((userInput == ConsoleKey.S || userInput == ConsoleKey.DownArrow) && Direction != SnakeDirection.Up)
+                {
+                    Direction = SnakeDirection.Down;
+                }
+                else if ((userInput == ConsoleKey.A || userInput == ConsoleKey.LeftArrow) && Direction != SnakeDirection.Right)
+                {
+                    Direction = SnakeDirection.Left;
+                }
+            }
+            MoveSnakeOnField(Direction);
+        }
+
+        public void MoveSnakeOnField(SnakeDirection snakeDirection)
         {
             switch (snakeDirection)
             {
@@ -91,7 +117,6 @@ namespace Snake.Models
             }
             foreach (var item in Body)
             {
-
                 if ((Body.Last()._x == item._x && Body.Last()._y == item._y) && (item != Body.Last()))
                 {
                     Console.Clear();
@@ -100,8 +125,50 @@ namespace Snake.Models
                     return true;
                 }
             }
+            return false;
+        }
+
+        public bool DidSnakeEatFood(int foodXPoint, int foodYPoint)
+        {
+            var head = Body.Last();
+
+            if (head._x == foodXPoint && head._y == foodYPoint)
+            {
+                return true;
+            }
 
             return false;
+        }
+
+        public int UpdateSnake(Cell[,] cells, bool didSnakeEatFood)
+        {
+
+            if (didSnakeEatFood == false && Body.Count > 1)
+            {
+                var tail = Body.Peek();
+                cells[tail._x, tail._y].ChangeCellType(TypeCell.Empty);
+
+                Console.SetCursorPosition(tail._y, tail._x);
+                Console.Write(cells[tail._x, tail._y].ToString());
+                Console.ResetColor();
+
+                Body.Dequeue();
+            }
+
+            foreach (var item in Body)
+            {
+                bool isHead = false;
+                if (item == Body.Last())
+                {
+                    isHead = true;
+                }
+                var type = isHead ? TypeCell.SnakeHead : TypeCell.SnakeBody;
+                cells[item._x, item._y].ChangeCellType(type);
+                Console.SetCursorPosition(item._y, item._x);
+                Console.Write(cells[item._x, item._y].ToString());
+                Console.ResetColor();
+            }
+            return Body.Count;
         }
     }
 }
