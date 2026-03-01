@@ -1,18 +1,20 @@
-﻿using Snake.Model.Enums;
+﻿using SnakeGame.Model.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Snake.Models
+namespace SnakeGame.Models
 {
     public class Cell
     {
         private int _x { get; set; }
         private int _y { get; set; }
         private TypeCell _type { get; set; }
+        public TypeCell Type => _type;
 
         public Cell(int x, int y, TypeCell type) 
         {
@@ -57,6 +59,9 @@ namespace Snake.Models
             return "Error";
         }
 
-
+        public void ChangeCellType(TypeCell type)
+        {
+            _type = type;
+        }
     }
 }

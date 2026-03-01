@@ -1,4 +1,4 @@
-﻿using Snake.Model.Enums;
+﻿using SnakeGame.Model.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,13 +6,12 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Snake.Models
+namespace SnakeGame.Models
 {
     public class Field
     {
-        public Field(int width, int length)
+        public Field(Cell[,] _cells)
         {
-            Cell[,] _cells = new Cell[width, length];
             CreateField(_cells);
             ShowField(_cells);
         }
@@ -31,9 +30,9 @@ namespace Snake.Models
                     {
                         _cells[i, j] = new Cell(i, j, TypeCell.Empty);
                     }
-                    
                 }
             }
+            
         }
 
         public void ShowField(Cell[,] _cells)
@@ -77,5 +76,7 @@ namespace Snake.Models
             }
             return true;
         }
+
+        
     }
 }

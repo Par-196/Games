@@ -49,7 +49,7 @@
     <Compile Include="Models\Field.cs" />
     <Compile Include="Models\Point.cs" />
     <Compile Include="Models\Snake.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="SnakeGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
