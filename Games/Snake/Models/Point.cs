@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SnakeGame.Models
+namespace Snake.Models
 {
     public class Point
     {
-        public int _x { get; set; }
-        public int _y { get; set; }
+        public int _x { get; }
+        public int _y { get; }
 
         public Point(int x, int y)
         {

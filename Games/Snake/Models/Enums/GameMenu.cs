@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Snake.Model.Enums
+namespace Snake.Models.Enums
 {
-    public enum SnakeDirection
+    public enum GameMenu
     {
-        Up = 1,
-        Right,
-        Down,
-        Left,
+        PLay = 1,
+        FieldSize,
+        Records,
+        Exit,
     }
 }

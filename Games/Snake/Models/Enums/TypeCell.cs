@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SnakeGame.Model.Enums
+namespace Snake.Model.Enums
 {
     public enum TypeCell
     {

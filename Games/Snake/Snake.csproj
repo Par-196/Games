@@ -44,11 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Cell.cs" />
+    <Compile Include="Models\Enums\GameMenu.cs" />
     <Compile Include="Models\Enums\SnakeDirection.cs" />
     <Compile Include="Models\Enums\TypeCell.cs" />
     <Compile Include="Models\Field.cs" />
     <Compile Include="Models\Point.cs" />
-    <Compile Include="Models\Snake.cs" />
+    <Compile Include="Models\SnakeModel.cs" />
     <Compile Include="SnakeGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
