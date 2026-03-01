@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -35,20 +36,26 @@ namespace Snake.Models
             }
         }
 
-        private void ShowField(Cell[,] _cells)
+        public void ShowField(Cell[,] _cells)
         {
-              Console.SetWindowSize(_cells.GetLength(1), _cells.GetLength(0));
-            for (int x = 0; x < _cells.GetLength(0); x++)
+            if (_cells != null)
             {
-                for (int y = 0; y < _cells.GetLength(1); y++)
+                Console.SetWindowSize(_cells.GetLength(1), _cells.GetLength(0));
+                for (int x = 0; x < _cells.GetLength(0); x++)
                 {
-                    Console.Write(_cells[x, y].ToString());
-                    Console.ResetColor();
+                    for (int y = 0; y < _cells.GetLength(1); y++)
+                    {
+                        Console.Write(_cells[x, y].ToString());
+                        Console.ResetColor();
+                    }
+                    Console.WriteLine();
                 }
-                Console.WriteLine();
+                Console.SetCursorPosition(0, 0);
             }
-            Console.SetCursorPosition(0, 0);
+            else 
+            {
+                Console.WriteLine("Error");
+            }
         }
-
     }
 }
