@@ -86,7 +86,7 @@ namespace Snake.Models
             {
                 Console.Clear();
                 Console.SetCursorPosition(0, 0);
-                Console.WriteLine("Ви в'єбались у стiну");
+                Console.WriteLine("You smashed into a wall");
                 return true;
             }
             foreach (var item in Body)
@@ -96,8 +96,7 @@ namespace Snake.Models
                 {
                     Console.Clear();
                     Console.SetCursorPosition(0, 0);
-                    Console.WriteLine("Ви в'єбались у себе");
-
+                    Console.WriteLine("You smashed into yourself"); 
                     return true;
                 }
             }
