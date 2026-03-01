@@ -15,7 +15,7 @@ namespace Snake.Models
             CreateField(_cells);
             ShowField(_cells);
         }
-         
+        
         private void CreateField(Cell[,] _cells)
         {
             for (int i = 0; i < _cells.GetLength(0); i++)
@@ -35,7 +35,7 @@ namespace Snake.Models
             }
         }
 
-        public void ShowField(Cell[,] _cells)
+        private void ShowField(Cell[,] _cells)
         {
               Console.SetWindowSize(_cells.GetLength(1), _cells.GetLength(0));
             for (int x = 0; x < _cells.GetLength(0); x++)
