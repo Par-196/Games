@@ -18,17 +18,22 @@ namespace Snake
         private Cell[,] _cells { get; set; }
         private SnakeModel _snake { get; set; }
 
-        public SnakeGame(int width, int length)
+        public SnakeGame()
         {
-            _cells = new Cell[width, length];
+            _cells = new Cell[40, 120];
             _field = new Field(_cells);
             _snake = new SnakeModel();
             _snake.PlaceSnakeOnField(_cells);
             _field.ShowField(_cells);
         }
 
+        static void Main()
+        {
+            
+        }
+
         public void GameStart()
-        {   
+        {
             int foodYPoint = 0;
             int foodXPoint = 0;
             bool didSnakeEatFood = true;
@@ -45,68 +50,7 @@ namespace Snake
                 }
                 didSnakeEatFood = _snake.DidSnakeEatFood(foodXPoint, foodYPoint);
                 _snake.UpdateSnake(_cells, didSnakeEatFood);
-                Thread.Sleep(100);
-            }
-        }
-
-        static void Main(string[] args)
-        {
-            int widthField = 30;
-            int heightField = 70;
-            bool exit = false;
-            while (!exit)
-            {
-                Console.Clear();
-                Console.WriteLine("1.PLay\n" +
-                "2.Field size\n" +
-                "3.Records\n" +
-                "4.Exit");
-
-                Enum.TryParse(Console.ReadLine(), out GameMenu gameMenu);
-                switch (gameMenu)
-                {
-                    case GameMenu.PLay:
-                        {
-                            Console.Clear();
-                            Console.CursorVisible = false;
-                            SnakeGame snakeGame = new SnakeGame(widthField, heightField);
-                            snakeGame.GameStart();
-                            Console.ReadLine();
-                        }
-                        break;
-                    case GameMenu.FieldSize:
-                        {
-                            Console.Clear();
-                            do
-                            {
-                                Console.WriteLine("Enter Field height, min 20");
-                                heightField = int.Parse(Console.ReadLine());
-                                Console.WriteLine("Enter Field widht, min 30");
-                                widthField = int.Parse(Console.ReadLine());
-                                if (heightField < 20 || widthField < 30)
-                                {
-                                    Console.WriteLine("Try again");
-                                }
-                            }
-                            while (heightField < 20 || widthField < 30);
-                        }
-                        break;
-                    case GameMenu.Records:
-                        {
-                        }
-                        break;
-                    case GameMenu.Exit:
-                        {
-                            exit = true;
-                            Console.WriteLine("Exit from game");
-                        }
-                        break;
-                    default:
-                        {
-                            Console.WriteLine("Wrong input, try again");
-                        }
-                        break;
-                }
+                Thread.Sleep(50);
             }
         }
     }

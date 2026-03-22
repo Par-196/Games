@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Enums\Authorization.cs" />
+    <Compile Include="Models\Enums\MainMenu.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
