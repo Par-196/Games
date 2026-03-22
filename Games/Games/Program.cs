@@ -75,8 +75,8 @@ namespace Games
 
         public static void SnakeMenu()
         {
-            int widthField = 30;
-            int heightField = 70;
+            int widthField = 100;
+            int heightField = 40;
             bool exit = false;
             while (!exit)
             {
@@ -93,7 +93,7 @@ namespace Games
                         {
                             Console.Clear();
                             Console.CursorVisible = false;
-                            SnakeGame snakeGame = new SnakeGame();
+                            SnakeGame snakeGame = new SnakeGame(heightField, widthField);
                             snakeGame.GameStart();
                             Console.ReadLine();
                         }
@@ -103,16 +103,16 @@ namespace Games
                             Console.Clear();
                             do
                             {
-                                Console.WriteLine("Enter Field height, min 20");
+                                Console.WriteLine("Enter Field height, min 20, max 80");
                                 heightField = int.Parse(Console.ReadLine());
-                                Console.WriteLine("Enter Field widht, min 30");
+                                Console.WriteLine("Enter Field widht, min 30, max 300");
                                 widthField = int.Parse(Console.ReadLine());
-                                if (heightField < 20 || widthField < 30)
+                                if (heightField < 20 || heightField > 80 || widthField < 30 || widthField > 300)
                                 {
                                     Console.WriteLine("Try again");
                                 }
                             }
-                            while (heightField < 20 || widthField < 30);
+                            while (heightField < 20 || heightField > 80 || widthField < 30 || widthField > 300);
                         }
                         break;
                     case GameMenu.Records:

@@ -18,9 +18,9 @@ namespace Snake
         private Cell[,] _cells { get; set; }
         private SnakeModel _snake { get; set; }
 
-        public SnakeGame()
+        public SnakeGame(int heightField, int widthField)
         {
-            _cells = new Cell[40, 120];
+            _cells = new Cell[heightField, widthField];
             _field = new Field(_cells);
             _snake = new SnakeModel();
             _snake.PlaceSnakeOnField(_cells);
