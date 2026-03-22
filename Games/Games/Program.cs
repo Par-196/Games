@@ -1,4 +1,5 @@
 ﻿using Chess;
+using Games.Models;
 using Games.Models.Enums;
 using Snake;
 using Snake.Models.Enums;
@@ -40,7 +41,7 @@ namespace Games
                                         break;
                                     case MainMenu.SeaWar:
                                         {
-                                            Console.Clear();
+                                            SeaBattleMenu();
                                         }
                                         break;
                                     case MainMenu.Chess:
@@ -132,6 +133,14 @@ namespace Games
                         break;
                 }
             }
+        }
+
+        public static void SeaBattleMenu()
+        {
+        }
+
+        public static void ChessMenu()
+        {
         }
     }
 }
