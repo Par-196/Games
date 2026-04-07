@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C562CD60-5352-43A4-8389-E8A4EEC53E13}|Games\\Games.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\games\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C562CD60-5352-43A4-8389-E8A4EEC53E13}|Games\\Games.csproj|solutionrelative:games\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\sea war\\models\\bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|solutionrelative:sea war\\models\\bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\sea war\\models\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|solutionrelative:sea war\\models\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\sea war\\models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|solutionrelative:sea war\\models\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\sea war\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|solutionrelative:sea war\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\sea war\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|solutionrelative:sea war\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\sea war\\models\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|solutionrelative:sea war\\models\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\sea war\\models\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|solutionrelative:sea war\\models\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\sea war\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|solutionrelative:sea war\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|d:\\program\\microsoft visual studio\\github\\games\\games\\sea war\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D6333DA-BA99-4A70-8C31-1D57BC040B23}|Sea War\\Sea War.csproj|solutionrelative:sea war\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +46,132 @@
       "DocumentGroups": [
         {
           "DockedHeight": 191,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Games\\Program.cs",
-              "RelativeDocumentMoniker": "Games\\Program.cs",
-              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Games\\Program.cs",
-              "RelativeToolTip": "Games\\Program.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAADgv2cAAAAeAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Program.cs",
+              "RelativeDocumentMoniker": "Sea War\\Program.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Program.cs",
+              "RelativeToolTip": "Sea War\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T03:11:08.857Z",
+              "WhenOpened": "2026-03-22T03:29:25.659Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "Sea War\\Models\\Game.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\Game.cs",
+              "RelativeToolTip": "Sea War\\Models\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T03:38:35.457Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Field.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\Field.cs",
+              "RelativeDocumentMoniker": "Sea War\\Models\\Field.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\Field.cs",
+              "RelativeToolTip": "Sea War\\Models\\Field.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T03:38:23.382Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cell.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\Cell.cs",
+              "RelativeDocumentMoniker": "Sea War\\Models\\Cell.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\Cell.cs",
+              "RelativeToolTip": "Sea War\\Models\\Cell.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T03:38:15.895Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Point.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\Point.cs",
+              "RelativeDocumentMoniker": "Sea War\\Models\\Point.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\Point.cs",
+              "RelativeToolTip": "Sea War\\Models\\Point.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T03:37:39.552Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ship.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\Ship.cs",
+              "RelativeDocumentMoniker": "Sea War\\Models\\Ship.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\Ship.cs",
+              "RelativeToolTip": "Sea War\\Models\\Ship.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T03:37:33Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Sea War\\Models\\User.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\User.cs",
+              "RelativeToolTip": "Sea War\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T03:37:51.122Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Sea War\\Models\\Player.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\Player.cs",
+              "RelativeToolTip": "Sea War\\Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T03:38:04.699Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bot.cs",
+              "DocumentMoniker": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\Bot.cs",
+              "RelativeDocumentMoniker": "Sea War\\Models\\Bot.cs",
+              "ToolTip": "D:\\Program\\Microsoft Visual Studio\\Github\\Games\\Games\\Sea War\\Models\\Bot.cs",
+              "RelativeToolTip": "Sea War\\Models\\Bot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T03:38:09.239Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]

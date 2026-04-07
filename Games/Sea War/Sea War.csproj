@@ -43,11 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Bot.cs" />
+    <Compile Include="Models\Cell.cs" />
+    <Compile Include="Models\Enums\ArrangementOfShipsMenu.cs" />
+    <Compile Include="Models\Enums\ChangeName.cs" />
+    <Compile Include="Models\Enums\Menu.cs" />
+    <Compile Include="Models\Enums\ShipDirection.cs" />
+    <Compile Include="Models\Enums\TypeCell.cs" />
+    <Compile Include="Models\Enums\TypeShips.cs" />
+    <Compile Include="Models\Field.cs" />
+    <Compile Include="Models\Game.cs" />
+    <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\Point.cs" />
+    <Compile Include="Models\Ship.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
