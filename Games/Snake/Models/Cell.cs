@@ -55,7 +55,6 @@ namespace Snake.Models
                 default:
                     break;
             }
-
             return "Error";
         }
 
